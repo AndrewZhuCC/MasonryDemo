@@ -10,22 +10,24 @@
 		49150C4D1E2DB34C00638614 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49150C4C1E2DB34C00638614 /* main.m */; };
 		49150C501E2DB34C00638614 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49150C4F1E2DB34C00638614 /* AppDelegate.m */; };
 		49150C531E2DB34C00638614 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49150C521E2DB34C00638614 /* ViewController.m */; };
-		49150C561E2DB34C00638614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49150C541E2DB34C00638614 /* Main.storyboard */; };
 		49150C581E2DB34C00638614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49150C571E2DB34C00638614 /* Assets.xcassets */; };
 		49150C5B1E2DB34C00638614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49150C591E2DB34C00638614 /* LaunchScreen.storyboard */; };
+		BE0A71C06C8DB74609F19A03 /* libPods-MasonryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5820776A7CCC577111C48799 /* libPods-MasonryDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		409ED6365C5A8F16F34EFBE7 /* Pods-MasonryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryDemo/Pods-MasonryDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		49150C481E2DB34C00638614 /* MasonryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49150C4C1E2DB34C00638614 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		49150C4E1E2DB34C00638614 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		49150C4F1E2DB34C00638614 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		49150C511E2DB34C00638614 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		49150C521E2DB34C00638614 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		49150C551E2DB34C00638614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49150C571E2DB34C00638614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49150C5A1E2DB34C00638614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49150C5C1E2DB34C00638614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5820776A7CCC577111C48799 /* libPods-MasonryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MasonryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2096FD05CBB8E1D7C36EE36 /* Pods-MasonryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasonryDemo/Pods-MasonryDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE0A71C06C8DB74609F19A03 /* libPods-MasonryDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15097740DDB010A514023C6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5820776A7CCC577111C48799 /* libPods-MasonryDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		49150C3F1E2DB34C00638614 = {
 			isa = PBXGroup;
 			children = (
 				49150C4A1E2DB34C00638614 /* MasonryDemo */,
 				49150C491E2DB34C00638614 /* Products */,
+				4ABD7816B47F5A5ED55A6ED1 /* Pods */,
+				15097740DDB010A514023C6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,7 +75,6 @@
 				49150C4F1E2DB34C00638614 /* AppDelegate.m */,
 				49150C511E2DB34C00638614 /* ViewController.h */,
 				49150C521E2DB34C00638614 /* ViewController.m */,
-				49150C541E2DB34C00638614 /* Main.storyboard */,
 				49150C571E2DB34C00638614 /* Assets.xcassets */,
 				49150C591E2DB34C00638614 /* LaunchScreen.storyboard */,
 				49150C5C1E2DB34C00638614 /* Info.plist */,
@@ -79,6 +91,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4ABD7816B47F5A5ED55A6ED1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				409ED6365C5A8F16F34EFBE7 /* Pods-MasonryDemo.debug.xcconfig */,
+				B2096FD05CBB8E1D7C36EE36 /* Pods-MasonryDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49150C5F1E2DB34C00638614 /* Build configuration list for PBXNativeTarget "MasonryDemo" */;
 			buildPhases = (
+				3897B89F337AD5ED7B753F23 /* [CP] Check Pods Manifest.lock */,
 				49150C441E2DB34C00638614 /* Sources */,
 				49150C451E2DB34C00638614 /* Frameworks */,
 				49150C461E2DB34C00638614 /* Resources */,
+				160306B5664F0AB9E3778250 /* [CP] Embed Pods Frameworks */,
+				341875A5DAEE2F88BAC2DB13 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,11 +164,58 @@
 			files = (
 				49150C5B1E2DB34C00638614 /* LaunchScreen.storyboard in Resources */,
 				49150C581E2DB34C00638614 /* Assets.xcassets in Resources */,
-				49150C561E2DB34C00638614 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		160306B5664F0AB9E3778250 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasonryDemo/Pods-MasonryDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		341875A5DAEE2F88BAC2DB13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasonryDemo/Pods-MasonryDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3897B89F337AD5ED7B753F23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		49150C441E2DB34C00638614 /* Sources */ = {
@@ -160,14 +231,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		49150C541E2DB34C00638614 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				49150C551E2DB34C00638614 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		49150C591E2DB34C00638614 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -271,6 +334,7 @@
 		};
 		49150C601E2DB34C00638614 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409ED6365C5A8F16F34EFBE7 /* Pods-MasonryDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LT4WKW32ZY;
@@ -283,6 +347,7 @@
 		};
 		49150C611E2DB34C00638614 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2096FD05CBB8E1D7C36EE36 /* Pods-MasonryDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LT4WKW32ZY;
@@ -312,6 +377,7 @@
 				49150C611E2DB34C00638614 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
